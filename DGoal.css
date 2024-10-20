@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+input[type="text"] {
+    margin-right: 5px;
+}
+
+.tooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 1000;
+}
